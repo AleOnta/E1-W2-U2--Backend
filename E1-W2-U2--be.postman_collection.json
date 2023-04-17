@@ -1,0 +1,548 @@
+{
+	"info": {
+		"_postman_id": "bbd31890-ca0e-424d-ab7d-7470dc7842fe",
+		"name": "E1-W2-U2--be",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25909383"
+	},
+	"item": [
+		{
+			"name": "e1",
+			"item": [
+				{
+					"name": "E1-GET-ANSA",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.ansa.it",
+							"protocol": "https",
+							"host": [
+								"www",
+								"ansa",
+								"it"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "e2",
+			"item": [
+				{
+					"name": "GET CAT FACTS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://catfact.ninja/fact",
+							"protocol": "https",
+							"host": [
+								"catfact",
+								"ninja"
+							],
+							"path": [
+								"fact"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET BITCOIN QUOTE",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.coindesk.com/v1/bpi/currentprice.json",
+							"protocol": "https",
+							"host": [
+								"api",
+								"coindesk",
+								"com"
+							],
+							"path": [
+								"v1",
+								"bpi",
+								"currentprice.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET RANDOM ACTIVITY",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.boredapi.com/api/activity",
+							"protocol": "https",
+							"host": [
+								"www",
+								"boredapi",
+								"com"
+							],
+							"path": [
+								"api",
+								"activity"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET RANDOM AGE",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.agify.io?name=alessandro",
+							"protocol": "https",
+							"host": [
+								"api",
+								"agify",
+								"io"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "alessandro"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET RANDOM AGE",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.genderize.io?name=alessandro",
+							"protocol": "https",
+							"host": [
+								"api",
+								"genderize",
+								"io"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "alessandro"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET CURRENT IP:ADDRESS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.ipify.org?format=json",
+							"protocol": "https",
+							"host": [
+								"api",
+								"ipify",
+								"org"
+							],
+							"query": [
+								{
+									"key": "format",
+									"value": "json"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET INFO IP",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ipinfo.io/79.21.118.188/geo",
+							"protocol": "https",
+							"host": [
+								"ipinfo",
+								"io"
+							],
+							"path": [
+								"79.21.118.188",
+								"geo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET RANDOM JOKES",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://official-joke-api.appspot.com/random_joke",
+							"protocol": "https",
+							"host": [
+								"official-joke-api",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"random_joke"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET RANDOM USER",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://randomuser.me/api/",
+							"protocol": "https",
+							"host": [
+								"randomuser",
+								"me"
+							],
+							"path": [
+								"api",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET RANDOM UNIVERSITIES",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://universities.hipolabs.com/search?country=italy",
+							"protocol": "http",
+							"host": [
+								"universities",
+								"hipolabs",
+								"com"
+							],
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "italy"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET A SPECIFIED ZIP CODE",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.zippopotam.us/us/33162",
+							"protocol": "https",
+							"host": [
+								"api",
+								"zippopotam",
+								"us"
+							],
+							"path": [
+								"us",
+								"33162"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "e3",
+			"item": [
+				{
+					"name": "GET LIST USERS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users?page=1",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET LIST Unknown",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/unknown",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"unknown"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET SINGLE USER",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users/8",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET SINGLE Unknown",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/unknown/4",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"unknown",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST USER",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"giorgio\",\r\n    \"job\": \"giovanni\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST REGISTER",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"pistol\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/login",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST LOGIN",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"cityslicka\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/login",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PATCH USER",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"morpheus\",\r\n    \"job\": \"zion resident\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users/513",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"513"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT USER",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"gianluca\",\r\n    \"job\": \"vacchi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users/823",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"823"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE USER",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users/513",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"513"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
